@@ -1,0 +1,14 @@
+{
+    "name": "xbmtbc/demo",
+    "description": "test composer project",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xbmtbc",
+            "email": "960524501@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
