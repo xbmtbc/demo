@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-29T06:13:48.434Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="MyDJ_8YfTNPp_lW2YIPc" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-29T06:15:35.512Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="GmDAThV0rBOEetplkir0" version="14.2.7" type="github">
   <diagram id="I9_dffHLye_pf-9wNx5H" name="第 1 页">
     <mxGraphModel dx="1874" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -81,6 +81,9 @@
         </mxCell>
         <mxCell id="igD-GckAJ0knDN7GTUAc-28" value="待商议" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="igD-GckAJ0knDN7GTUAc-29" value="&lt;div style=&quot;text-align: left ; line-height: 1.75 ; font-size: 14px&quot;&gt;目前car前台系统调用的OA接口&lt;/div&gt;&lt;div style=&quot;text-align: left ; line-height: 1.75 ; font-size: 14px&quot;&gt;第一：司机接收任务&lt;/div&gt;&lt;div style=&quot;text-align: left ; line-height: 1.75 ; font-size: 14px&quot;&gt;$posturl = &#39;https://www.yuexing.com/?mod=yxoacar&amp;amp;act=setCarAndDriver&#39;;&lt;/div&gt;&lt;div style=&quot;text-align: left ; line-height: 1.75 ; font-size: 14px&quot;&gt;$postres = RequestService::curl_post($posturl,[&#39;request_id&#39;=&amp;gt;$taskinfo[&#39;requestid&#39;]]);&lt;/div&gt;&lt;div style=&quot;text-align: left ; line-height: 1.75 ; font-size: 14px&quot;&gt;第二：司机结束任务&lt;/div&gt;&lt;div style=&quot;text-align: left ; line-height: 1.75 ; font-size: 14px&quot;&gt;$posturl = &#39;https://www.yuexing.com/?mod=yxoacar&amp;amp;act=finishTrip&#39;;&lt;/div&gt;&lt;div style=&quot;text-align: left ; line-height: 1.75 ; font-size: 14px&quot;&gt;$postres = RequestService::curl_post($posturl,[&#39;request_id&#39;=&amp;gt;$taskinfo[&#39;requestid&#39;]]);&lt;/div&gt;&lt;div style=&quot;text-align: left ; line-height: 1.75 ; font-size: 14px&quot;&gt;第三：车队长取消任务&lt;/div&gt;&lt;div style=&quot;text-align: left ; line-height: 1.75 ; font-size: 14px&quot;&gt;$posturl = &#39;https://www.yuexing.com/?mod=yxoacar&amp;amp;act=cancelTask&#39;;&lt;/div&gt;&lt;div style=&quot;text-align: left ; line-height: 1.75 ; font-size: 14px&quot;&gt;$postres = RequestService::curl_post($posturl,[&#39;request_id&#39;=&amp;gt;$taskinfo[&#39;requestid&#39;]]);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="600" width="530" height="340" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
